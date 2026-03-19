@@ -47,7 +47,7 @@ html, body {
 .nav-title-options {
   display: flex;
   gap: 100px;
-  margin-left: 40px;
+  margin-left: 5px;
 }
 
 .title {
@@ -76,7 +76,6 @@ html, body {
 .title:hover::after, .item:hover::after {
   width: 100%;
 }
-
 
 .nav-list {
   display: flex;
@@ -121,6 +120,20 @@ html, body {
   height: 22px;
   text-align: center;
   border-radius: 10px;
+}
+
+.img-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.img-text {
+  position: absolute;
+  color: var(--seclight);
+  font-size: 1.2rem
 }
 
 .img-bg {
