@@ -190,6 +190,14 @@ html, body {
   margin-bottom: 8px;
 }
 
+.container-text p span {
+  text-decoration: line-through;
+}
+
+.ph-fill {
+  color: gold;
+}
+
 .container-link {
   text-align: center;
   color: var(--dark-);
